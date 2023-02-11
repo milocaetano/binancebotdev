@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceCsharpBot", "BinanceCsharpBot\BinanceCsharpBot.csproj", "{69D2B937-AC2A-405E-8D85-2565F5534625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceImporter", "BinanceImporter\BinanceImporter.csproj", "{9F139FE5-9E8B-43E3-B568-07FF4ED4B7E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D2B937-AC2A-405E-8D85-2565F5534625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D2B937-AC2A-405E-8D85-2565F5534625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D2B937-AC2A-405E-8D85-2565F5534625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D2B937-AC2A-405E-8D85-2565F5534625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F139FE5-9E8B-43E3-B568-07FF4ED4B7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F139FE5-9E8B-43E3-B568-07FF4ED4B7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F139FE5-9E8B-43E3-B568-07FF4ED4B7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F139FE5-9E8B-43E3-B568-07FF4ED4B7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2825895-F9C2-413C-AF86-5E7F4632E65B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿{
+  "BinanceConfig": {
+    "StreamUrl": "wss://testnet.binance.vision/ws/",
+    "ApiUrl": "https://testnet.binance.vision/api",
+    "ApiKey": "GRJe42ALP0pQhtdkH968cTrBXWTwGP0Qzh7ux8AdQkpNQGwsFZMAXMMj0tWIjr9Z",
+    "SecretKey": "gzyCFzNDOgTyO0gk3xZYjxHtcROuCc6nFxULLdbt7qKiwJzqgqgaR1WOvhvz4WgX"
+  }
+}
