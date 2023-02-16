@@ -49,12 +49,7 @@ namespace BinanceImporter
             {
 
                 Console.WriteLine(ex.ToString());
-            }
-
-                
-        }
-
-       
+            }                
+        }       
     }
-
 }

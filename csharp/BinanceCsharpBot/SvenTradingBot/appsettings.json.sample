@@ -1,0 +1,43 @@
+{
+
+  "ConnectionStrings": {
+    "MyConnectionString": ""
+  },
+
+  "SvenTrading": {
+  },
+
+
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Verbose",
+      "Override": {
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "InformationSink",
+        "Args": {
+          "pathFormat": "c:\\temp\\information-{Date}.txt"
+        },
+        "MinimumLevel": "Information"
+      },
+      {
+        "Name": "WarningSink",
+        "Args": {
+          "pathFormat": "c:\\temp\\warning-{Date}.txt"
+        },
+        "MinimumLevel": "Warning"
+      },
+      {
+        "Name": "ErrorSink",
+        "Args": {
+          "pathFormat": "c:\\temp\\error-{Date}.txt"
+        },
+        "MinimumLevel": "Error"
+      }
+    ]
+  }
+}
